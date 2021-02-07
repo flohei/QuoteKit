@@ -1,7 +1,7 @@
 import XCTest
 
-import QuoteKitTests
+import QuoteTests
 
 var tests = [XCTestCaseEntry]()
-tests += QuoteKitTests.allTests()
+tests += QuoteTests.allTests()
 XCTMain(tests)
